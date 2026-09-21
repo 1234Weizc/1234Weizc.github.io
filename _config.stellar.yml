@@ -1,0 +1,40 @@
+# _config.stellar.yml
+
+topbar:
+  enabled: true
+  menu:
+    - id: home
+      title: 首页
+      url: /
+    - id: wiki
+      title: 知识库
+      url: /wiki/
+
+leftbar:
+  menu:
+    - id: post
+      title: 博客
+      icon: default:documents
+      url: /
+    - id: notes
+      title: 笔记
+      icon: default:documents
+      url: /wiki/
+  brand:
+    image: 
+    name: 魏志诚的学习笔记
+    tagline: 课程笔记与会议记录
+
+appearance:
+  preset: minimal
+  color_scheme: auto
+  colors:
+    primary: '#2f6f68'
+    accent: '#c96f4a'
+
+article:
+  type: tech
+  auto_excerpt: 200
+
+footer:
+  content: '记录学习与思考。'
